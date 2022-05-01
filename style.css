@@ -1,0 +1,86 @@
+#NavBar{
+    text-decoration-line: none;
+    text-align: right;
+    color: black;
+    margin: 15px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(249, 249, 250);
+    text-decoration-line: none;
+}
+
+#Logo{
+    padding: 5;
+    border: 5;
+    margin-top: 5;
+    margin-left: 5;
+    margin-right: 5;
+    margin-bottom: 5;
+    aspect-ratio: auto;
+}
+
+#Lucky{
+    color: rgb(165, 136, 136);
+    text-align: center;
+    text-decoration-line: none;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    
+
+}
+
+#Search{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    text-decoration:none;
+}
+
+#InputSearch {
+    width: 600px;
+    height: 10px;
+    padding: 10px;   
+    font-size: 20px;
+    
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    color: rgb(44, 17, 88);
+    background-color: rgb(249, 249, 250);
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+
+.footer-link{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 249, 250);
+    font-size: 18px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    text-decoration-line: none;
+    
+}
+
+#InputSearch:hover{
+    color: rgb(177, 14, 177);
+    transition: cubic-bezier(.5s);
+}
+
+#Lucky:hover{
+    color: orchid;
+    background-color: rgb(200, 143, 238);
+    
+}
+
+#Search:hover{
+    color: plum;
+    background-color: powderblue;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
